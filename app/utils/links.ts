@@ -17,6 +17,11 @@ export const navLinks: NavigationMenuItem[] = [
     to: '/projects'
   },
   {
+    label: 'Experiencia',
+    icon: 'i-lucide-archive',
+    to: '/experience'
+  },
+  {
     label: 'Tecnologías',
     icon: 'i-lucide-code',
     to: '/technologies'
