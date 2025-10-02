@@ -5,7 +5,7 @@ description: Experiencia de Kyllian (Kikisito), ingeniero informático especiali
 # Experiencia
 Mi trayectoria combina proyectos personales con iniciativas académicas y colaboraciones que me han permitido crecer como ingeniero de software.
 
-## Vulcan — Gestión de talleres mecánicos (2025)
+## Vulcan — Gestión de talleres mecánicos (2025-)
 Solución de software enfocada a talleres mecánicos, con capacidades offline y cumplimiento de la normativa fiscal española.
 
 - Stack híbrido con React, Electron y Kotlin, junto a servicios Spring Boot y almacenamiento SQLite.
@@ -18,7 +18,7 @@ Aplicación fullstack desarrollada como Trabajo de Fin de Grado, reconocida con 
 - Mensajería en tiempo real mediante WebSockets y validaciones con VeeValidate.
 - Diseño de experiencia de usuario centrada en personas mayores, con mensajería interna.
 
-## Prácticas de empresa en Shaidraig — Desarrollo de videojuego web
+## Prácticas de empresa en Shaidraig — Desarrollo de videojuego web (2025)
 Durante mis prácticas colaboré con el equipo de Shaidraig para crear un videojuego web, combinando AngularJS con PixiJS como motor de renderizado.
 
 - Desarrollo de componentes reusables en AngularJS para la lógica de juego y la interfaz de usuario.
