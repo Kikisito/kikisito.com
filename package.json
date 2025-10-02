@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.68",
-    "@iconify-json/simple-icons": "^1.2.53"
+    "@iconify-json/simple-icons": "^1.2.53",
+    "zod": "^4.1.11"
   }
 }

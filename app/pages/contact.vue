@@ -1,3 +1,3 @@
 <template>
-    Pendiente
+    <span>Pendiente</span>
 </template>

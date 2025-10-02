@@ -79,8 +79,7 @@ const social = computed(() => appConfig.index.socials)
           size="lg"
           class="rounded-full"
           :icon="s.icon"
-        >
-        </UButton>
+        />
       </div>
     </div>
   </section>

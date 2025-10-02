@@ -1,0 +1,17 @@
+{
+    "name": "NFCNotes",
+    "tagline": "Plugin de Minecraft (Spigot)",
+    "description": "Plugin que permite a los jugadores crear y gestionar cheques de dinero dentro del juego utilizando objetos personalizados. Es configurable y traducible a varios idiomas. Incluye medidas de protección para evitar fraudes.",
+    "year": 2020,
+    "category": "Backend",
+    "stack": ["Java", "Spigot"],
+    "links": [
+        {
+            "label": "GitHub",
+            "to": "https://github.com/Kikisito/NFCNotes",
+            "icon": "i-lucide-github"
+        }
+    ],
+    "archived": false,
+    "active": true
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Edoras Minecraft",
+    "tagline": "Servidor de Minecraft",
+    "description": "Desarrollo y mantenimiento de un servidor de Minecraft. Desarrollo de plugins personalizados, administración de servidores y optimización del rendimiento. Servidor con éxito y una comunidad activa desde 2017.",
+    "year": 2017,
+    "category": "Backend, sistemas",
+    "stack": ["Java", "MySQL", "Spigot", "BungeeCord", "Docker", "PHP", "Linux", "Administración de sistemas"],
+    "links": [
+        {
+            "label": "Web",
+            "to": "https://edoras.es",
+            "icon": "i-lucide-globe"
+        },
+        {
+            "label": "GitHub",
+            "to": "https://github.com/EdorasMinecraft",
+            "icon": "i-lucide-github"
+        },
+        {
+            "label": "Discord",
+            "to": "https://discord.edoras.es",
+            "icon": "i-lucide-message-circle"
+        }
+    ],
+    "archived": false,
+    "active": true
+}

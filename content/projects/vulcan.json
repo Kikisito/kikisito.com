@@ -1,0 +1,15 @@
+{
+    "name": "Vulcan",
+    "tagline": "Aplicación de gestión de talleres mecánicos",
+    "description": "Vulcan es una aplicación de gestión de talleres mecánicos que facilita la administración de clientes, vehículos y facturación. Cumple la normativa de la Agencia Tributaria al integrar VERI*FACTU y NO VERI*FACTU.",
+    "year": 2025,
+    "category": ["Fullstack"],
+    "stack": ["React", "Spring Boot", "Kotlin", "Electron", "Java", "VERI*FACTU", "NO VERI*FACTU", "SQLite", "TypeScript"],
+    "highlights": [
+        "🧾 Integración con VERI*FACTU",
+        "Disponible sin conexión a internet",
+        "Sistema Informático de Facturación (SIF)"
+    ],
+    "archived": false,
+    "active": true
+}

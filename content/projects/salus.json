@@ -1,0 +1,13 @@
+{
+    "name": "Salus",
+    "tagline": "Aplicación multiplataforma para la gestión de clínicas",
+    "description": "Aplicación multiplataforma diseñada para facilitar la gestión integral de clínicas médicas. Ofrece funcionalidades como gestión de pacientes, citas, historiales médicos y mensajería, todo en una interfaz intuitiva y fácil de usar. Está disponible para dispositivos móviles y de escritorio.",
+    "year": 2025,
+    "category": "Fullstack",
+    "stack": ["Vue.js", "Spring Boot", "Node.js", "PostgreSQL", "TypeScript", "JWT", "Quasar", "Capacitor", "WebSockets", "VeeValidate"],
+    "highlights": [
+        "⭐ Matrícula de Honor por la Universidad de Alicante",
+        "Trabajo de Fin de Grado"
+    ],
+    "archived": false
+}

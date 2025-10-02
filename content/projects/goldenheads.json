@@ -1,0 +1,17 @@
+{
+    "name": "GoldenHeads",
+    "tagline": "Plugin de Minecraft (Spigot)",
+    "description": "Plugin que añade cabezas doradas con efectos especiales al juego, mejorando la experiencia de los jugadores. Altamente configurable y compatible con múltiples versiones de Minecraft.",
+    "year": 2020,
+    "category": "Backend",
+    "stack": ["Java", "Spigot"],
+    "links": [
+        {
+            "label": "GitHub",
+            "to": "https://github.com/Kikisito/GoldenHeads",
+            "icon": "i-lucide-github"
+        }
+    ],
+    "archived": false,
+    "active": true
+}
