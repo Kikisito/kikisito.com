@@ -5,7 +5,7 @@ description: Experiencia de Kyllian (Kikisito), ingeniero informático especiali
 # Experiencia
 Mi trayectoria combina proyectos personales con iniciativas académicas y colaboraciones que me han permitido crecer como ingeniero de software.
 
-## Vulcan — Gestión de talleres mecánicos (2025-)
+## Vulcan — Gestión de talleres mecánicos (2025-presente)
 Solución de software enfocada a talleres mecánicos, con capacidades offline y cumplimiento de la normativa fiscal española.
 
 - Stack híbrido con React, Electron y Kotlin, junto a servicios Spring Boot y almacenamiento SQLite.
