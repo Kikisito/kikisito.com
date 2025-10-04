@@ -7,7 +7,7 @@ export default defineContentConfig({
       type: 'page',
       source: '**/*.md'
     }),
-    projects: defineCollection<ProjectInfo>({
+    projects: defineCollection({
       type: 'data',
       source: 'projects/*.json',
       schema: z.object({
