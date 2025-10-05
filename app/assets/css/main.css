@@ -1,2 +1,27 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+:root {
+	--page-transition-distance: 12px;
+	--page-transition-duration: 0.35s;
+	--page-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-enter-active,
+.page-leave-active {
+	transition:
+		opacity var(--page-transition-duration) var(--page-transition-timing),
+		transform var(--page-transition-duration) var(--page-transition-timing);
+}
+
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+	transform: translateY(var(--page-transition-distance));
+}
+
+.page-enter-to,
+.page-leave-from {
+	opacity: 1;
+	transform: translateY(0);
+}
