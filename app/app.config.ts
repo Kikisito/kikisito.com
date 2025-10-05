@@ -20,12 +20,14 @@ export default defineAppConfig({
     bio: 'Ingeniero informático full‑stack: diseño arquitecturas, optimizo bases de datos y cuido la experiencia final del usuario con la última tecnología disponible',
     socials: [
       {
+        'name': 'LinkedIn',
         'icon': 'i-simple-icons-linkedin',
         'to': 'https://www.linkedin.com/in/kyllian-boucir/',
         'target': '_blank',
         'aria-label': 'Perfil de LinkedIn'
       },
       {
+        'name': 'GitHub',
         'icon': 'i-simple-icons-github',
         'to': 'https://github.com/Kikisito',
         'target': '_blank',
