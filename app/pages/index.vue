@@ -20,6 +20,7 @@ const social = computed(() => appConfig.index.socials)
         <NuxtImg
           :src="appConfig.global.picture.url"
           :alt="appConfig.global.picture.alt"
+          quality="100"
           width="256"
           height="256"
           format="webp"

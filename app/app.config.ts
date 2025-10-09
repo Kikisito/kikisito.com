@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      url: 'https://avatars.githubusercontent.com/u/35898087',
-      alt: 'Foto de Kikisito en GitHub'
+      url: '/images/profile_photo.png',
+      alt: 'Foto de perfil'
     },
     workLink: 'mailto:kikisito@kikisito.com',
     email: 'mailto:kikisito@kikisito.com',
