@@ -27,7 +27,7 @@ defineProps<{ project: ProjectInfo }>()
             <!-- Si está activo, se muestra como "En curso" -->
             <UTooltip v-if="project.active" text="Este proyecto está en curso y se mantiene activamente.">
               <UBadge size="sm" color="success" variant="subtle">
-                En curso
+                Activo
               </UBadge>
             </UTooltip>
           </h3>

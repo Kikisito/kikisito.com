@@ -31,6 +31,7 @@ Esta es una selección de tecnologías, frameworks, lenguajes y herramientas que
 ## Infraestructuras
 
 - **Docker**: Servicios en contenedores y despliegues aislados.
+- **Kubernetes**: Orquestación de contenedores, gestión de clusters y despliegues escalables.
 - **Linux** (Debian, Ubuntu, Fedora, etc): Configuración, monitoreo y optimización de servidores.
 - **Git**: Control de versiones basado en ramas, gestión de versiones y colaboración.
 - **CI/CD (GitHub Actions, Workers)**: Builds automatizados, tests y releases.
@@ -40,8 +41,18 @@ Esta es una selección de tecnologías, frameworks, lenguajes y herramientas que
 - **PostgreSQL**: Elección principal para backends seguros y modernos.
 - **MySQL / MariaDB**: Principalmente para compatibilidad y proyectos archivados.
 - **SQLite**: Para aplicaciones offline first.
+- **MinIO**: Almacenamiento de objetos S3 compatible para Data Lakes y backups.
 
-## Autenticación y Seguridad
+## Ingeniería de datos
+
+- **Apache Spark**: Procesamiento distribuido y análisis de grandes volúmenes de datos.
+- **Apache NiFi**: Diseño de flujos de datos y automatización de la transferencia de información.
+- **Apache Airflow**: Creación, programación y monitorización de flujos de trabajo.
+- **Daft**: Procesamiento de datos distribuido con soporte para datos no estructurados.
+- **Conectores EDC**: Integración y conectividad en espacios de datos.
+- **Project Nessie**: Catálogo transaccional Git-like para Data Lakes.
+
+## Autenticación y seguridad
 
 - **JWT**: Autenticación stateless en APIs.
 - **Control de acceso por roles** y validaciones de entrada (Bean validation, VeeValidate en frontend).
@@ -54,7 +65,7 @@ Esta es una selección de tecnologías, frameworks, lenguajes y herramientas que
 
 En general: WebSockets para interacción en vivo usuario ↔ aplicación, RabbitMQ para patrones de trabajo distribuido y control de entrega, Kafka para pipelines de datos y publicación/suscripción de alto throughput.
 
-## Calidad y Mantenibilidad
+## Calidad y mantenibilidad
 
 - **Testing (JUnit, Cypress, etc)**: Pruebas unitarias y de integración en aplicaciones.
 

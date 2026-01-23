@@ -12,6 +12,6 @@ En 2017 di un salto importante al gestionar tanto la infraestructura como la web
 
 En 2021 comencé el grado en **Ingeniería Informática** en la Universidad de Alicante para luego completarlo con la especialización en **Ingeniería del Software** en 2025. La universidad me dio la base teórica y metodológica que hoy aplico en cada proyecto.
 
-Desde entonces no he dejado de sumar herramientas a mi mochila: HTML, CSS, JavaScript, Java, Docker, SQL (MySQL, MariaDB, Oracle, PostgreSQL), Git, Laravel, React, Vue, PHP, Bash, Composer... y, sobre todo, la costumbre de elegir la tecnología que mejor resuelve el problema, no la que está de moda.
+Desde entonces no he dejado de sumar herramientas a mi mochila: HTML, CSS, JavaScript, Java, Docker, bases de datos SQL, Git, Laravel, React, Vue, PHP, Bash, Apache Spark, Apache Airflow, Apache Kafka, Kubernetes... y, sobre todo, la costumbre de elegir la tecnología que mejor resuelve el problema, no la que está de moda.
 
 Si deseas contactarme, no dudes en hacerlo mediante la página [Contacto](/contact). 🙂

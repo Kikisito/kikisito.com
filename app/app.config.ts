@@ -6,7 +6,7 @@ export default defineAppConfig({
     },
     workLink: 'mailto:kikisito@kikisito.com',
     email: 'mailto:kikisito@kikisito.com',
-    available: true
+    available: false
   },
   ui: {
     colors: {
@@ -17,7 +17,7 @@ export default defineAppConfig({
   index: {
     name: 'Kikisito',
     title: 'Ingeniero software',
-    bio: 'Ingeniero informático full‑stack: diseño arquitecturas, optimizo bases de datos y cuido la experiencia final del usuario con la última tecnología disponible',
+    bio: 'Ingeniero informático con experiencia en ingeniería de datos y desarrollo de software full-stack',
     socials: [
       {
         'name': 'LinkedIn',
