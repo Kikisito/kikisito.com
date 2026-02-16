@@ -1,8 +1,6 @@
 services:
   kikisitocom:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/Kikisito/kikisito.com:latest
     restart: always
     environment:
       - NODE_ENV=production
