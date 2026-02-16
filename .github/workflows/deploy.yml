@@ -58,5 +58,6 @@ jobs:
             cd /srv/kikisito.com
             echo "${{ secrets.GITHUB_TOKEN }}" | docker login ${{ env.REGISTRY }} -u ${{ github.actor }} --password-stdin
             docker pull ${{ env.REGISTRY }}/${{ steps.image.outputs.name }}:latest
+            docker logout ${{ env.REGISTRY }}
             docker compose down
             docker compose up -d
