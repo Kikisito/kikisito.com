@@ -1,6 +1,6 @@
 services:
   kikisitocom:
-    image: ghcr.io/Kikisito/kikisito.com:latest
+    image: ghcr.io/kikisito/kikisito.com:latest
     restart: always
     environment:
       - NODE_ENV=production
