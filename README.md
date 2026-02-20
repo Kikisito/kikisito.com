@@ -1,75 +1,77 @@
-# Nuxt Minimal Starter
+# kikisito.com
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Sitio web personal y portafolio construido con **Nuxt 4**, **Vue 3**, **Tailwind CSS** y **Nuxt UI**. Muestra mis proyectos, experiencia profesional, tecnologías utilizadas e información de contacto.
+## Desarrollo
 
-## Setup
+- **Framework**: Nuxt 4 con Vue 3
+- **Styling**: Tailwind CSS 4
+- **Componentes UI**: Nuxt UI
+- **Gestión de Contenido**: Nuxt Content
+- **Iconos**: Nuxt Icon con Lucide y Simple Icons
+- **Imágenes**: Nuxt Image
+- **Lenguaje**: TypeScript
+- **Gestor de paquetes**: pnpm
+- **Despliegue**: Docker + GitHub Actions
 
-Make sure to install dependencies:
+## Instalación
+
+Instala las dependencias:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Desarrollo
 
-Start the development server on `http://localhost:3000`:
+Inicia el servidor de desarrollo en `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Construcción
 
-Build the application for production:
+Build para producción:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Vista previa local del build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Estructura del Proyecto
+
+```
+├── app/
+│   ├── components/       # Componentes varios
+│   ├── pages/            # Páginas de la aplicación
+│   ├── layouts/          # Layouts
+│   ├── assets/           # Estilos y assets
+│   ├── utils/            # Utilidades
+│   └── types/            # Tipos TypeScript
+├── content/
+│   └── projects/         # Datos JSON de proyectos
+├── compose.yml           # Configuración Docker
+├── nuxt.config.ts        # Configuración de Nuxt
+├── package.json          # Dependencias
+└── tsconfig.json         # Configuración TypeScript
+```
+
+## Despliegue
+
+### Docker
+
+El proyecto se construye automáticamente como imagen Docker con GitHub Actions y se despliega a producción.
+
+Para ejecutar localmente se debe ejecutar `docker-compose up`. De esta manera, la aplicación estará disponible en `http://localhost:80`
+
+### GitHub Actions
+
+El workflow de despliegue automatiza:
+- Construcción de la imagen Docker
+- Subida a GitHub Container Registry (GHCR)
+- Despliegue a producción
